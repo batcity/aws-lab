@@ -7,6 +7,9 @@ This example demonstrates how to **simulate AWS EC2 (Elastic Compute Cloud) inst
 ## What is EC2?
 
 Amazon EC2 is a **web service that provides resizable compute capacity in the cloud**.  
+
+> ⚠️ “Resizable” does **not** mean you can dynamically increase CPU or memory of a running instance. It means you can **choose or change instance types** to adjust compute resources, and you can scale the number of instances up or down as needed.
+
 It allows you to run **virtual servers**—think of them like cloud-based VMs—without managing physical hardware.
 
 ### Key Concepts
