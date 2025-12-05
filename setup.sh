@@ -25,7 +25,7 @@ pip install --upgrade pip
 
 # 3️⃣ Install Python dependencies
 echo "📥 Installing dependencies..."
-pip install boto3 localstack pyspark python-dotenv
+pip install boto3 localstack pyspark python-dotenv flask
 
 # 4️⃣ Check Docker
 if ! command -v docker >/dev/null 2>&1; then
