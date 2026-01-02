@@ -7,6 +7,5 @@ probably serverless ones - and worry less about setting things up - the disadvan
 pricy if the traffic is huge and the users would be tied to AWS
 
 **Note: ** Don't use these instead of tradional API gateways like kong, nginx and so on because
-this would be way more expensive since it charges based on how many times the gateway is hit
-and it also adds additoinal latency
+this would be way more expensive since it charges based on how many times the gateway is hit and it also adds additional latency
 
