@@ -4,7 +4,7 @@ DynamoDB is a serverless, fully managed, NoSQL Database
 
 ## Types of supported Data models:
 
-- Key-value store
+- Key-value store (Note: Each value is essentially a document)
 - Document based
 
 ## Storage model:
@@ -24,3 +24,7 @@ however it looks like they do offer an in-memory enhancement for DynamoDB, more 
 | Consistency         | Strong (Optional) or Eventual                | Eventual (Query/Item cache)                                   |
 | Availability SLA    | 99.99% (99.999% for Global)                  | 99.9% (Standard for DAX clusters)                             |
 | Throughput          | Virtually Infinite (Auto-scaling)            | Limited by Node Instance Size                                 |
+
+## Additional reading:
+
+Dynamo research paper which was the foundation of DynamoDB: https://cdn.amazon.science/ac/1d/eb50c4064c538c8ac440ce6a1d91/dynamo-amazons-highly-available-key-value-store.pdf
